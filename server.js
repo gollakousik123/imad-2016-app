@@ -23,13 +23,13 @@ var articleTwo ={
        
        
       
-       `
+       
 };
 function createTemplate (data){
 var title=data.title;
-va date =data.date;
+var date =data.date;
 var heading =data.heading;
-var content =data.content
+var content =data.content;
 
 var htmlTemplate = `
 <html>
