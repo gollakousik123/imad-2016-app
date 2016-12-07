@@ -4,8 +4,7 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-appp.use(express.static('public'));
-app.use('/ui',express.static(__dirname+'/ui'));
+
 var articles ={
 'article-one':{  title: 'article2/golla kousik',
        heading: 'article two',
@@ -121,3 +120,5 @@ var port = 8080; // Use 8080 for local development because you might already hav
 app.listen(8080, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
+appp.use(express.static('public'));
+app.use('/ui',express.static(__dirname+'/ui'));
