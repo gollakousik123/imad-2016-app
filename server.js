@@ -4,7 +4,8 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-
+appp.use(express.static('public'));
+app.use('/ui',express.static(__dirname+'/ui'));
 var articles ={
 'article-one':{  title: 'article2/golla kousik',
        heading: 'article two',
