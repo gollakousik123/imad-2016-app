@@ -67,7 +67,7 @@ var htmlTemplate = `
 <body>
 <header class="container">
   <div class="row">
-     <h1 class="col-sm-4">kalpana show room</h1>
+     <h1 class="col-sm-4">MART</h1>
    <nav class="col-sm-8 text-right">
      <p>newest</p>
       <p>catalogue</p>
