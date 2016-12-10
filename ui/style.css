@@ -31,7 +31,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('http://static14.jassets.com/p/Identiti-Solid-Blue-Slim-Fit-Casual-Shirt-1903-540237-1-product2.jpg');
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
