@@ -101,3 +101,6 @@ footer li img {
     align-items:center;
     
 }
+#gender{
+    display:flex;
+}
