@@ -98,5 +98,6 @@ footer li img {
 }
 .row{
     display:flex;
+    align-items:center;
     
 }
