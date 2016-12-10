@@ -87,7 +87,8 @@ var htmlTemplate = `
 </header>
 <section>
     <div class="row">
-        <h3>gender</h3><p>Click on one of the text labels to toggle the related control:</p>
+        <h3 id="gender">gender</h3>
+        <p>Click on one of the text labels to toggle the related control:</p>
 
 <form action="demo_form.asp">
   <label for="male">Male</label>
