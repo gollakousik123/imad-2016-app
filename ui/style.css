@@ -104,6 +104,6 @@ footer li img {
 #gender{
     display:flex;
     justify-content:flex-end;
-    padding:30px;
+    padding:0 20px;
     margin:0 0 30px;
 }
